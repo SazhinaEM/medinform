@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+    color: brown;
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+header,
+footer{
+text-align: center;
+background-color: antiquewhite;
+}
+p
+{
+    text-align: justify;
+    text-indent: 8ch;
+}
+p::first-letter {
+    font-size: 120%;
+    color: blueviolet;
+    text-decoration-line: underline;
+}
+section:hover {
+background-color: lightcoral;
+}
+p::first-line{
+    color: black;
+}
+h2,h3,h4
+{
+color: crimson;
+text-decoration-line:underline;
+}
+h4::first-letter {
+color: darkmagenta;
+}
+.myimage-div
+{
+    display: none;
+}
+a.myimage-ssilka:hover+.myimage-div
+{
+    display: block;
+}
+aside{
+    background: rgb(198,234,229);
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 18%;
+    height: 95%;
+}
