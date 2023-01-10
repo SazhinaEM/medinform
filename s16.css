@@ -1,37 +1,64 @@
 body{
-    background-color:lightgray;
-    color: black;
+    background-color: aliceblue;
+    color: darkslategrey;
     margin: 5px;
     padding: 2px;
-    font-family:sans-serif;
-    }
-
-p
-{
-    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+text-align: center;
+}
+h1{
+    text-align: right;
+    padding: 50px; 
+}
+h2{
+    color: black;
+    background-color: whitesmoke;
+    text-decoration-line: underline;
     text-indent: 8ch;
+    text-align: left;
+
 }
-h2
-{
-color: crimson;
-text-decoration-line:underline;
+h2::ul{
+background-color: blue;
 }
-h3
-{
-color: crimson;
-text-decoration-line:underline;
+h2::first-letter{
+    color:black ;
 }
-h4
-{
-color: crimson;
-text-decoration-line:underline;
+h3,
+footer{
+    color: black;
+    background-color: whitesmoke;
+    text-decoration-line: underline;
+    text-indent: 8ch;
+text-align: center;
 }
-article
-{
-    float: left;
-   
-    width: 28%;
-    height: 95%;
-    background: ;
-   
+    main{
+        text-align: right;
+        text-align: justify;
+    }
+p{
+text-align: justify;
+text-align:left ;
+text-indent: 8ch;
+background-color: whitesmoke;
+}
+ p::first-letter{
+font-size: 120%;
+color: aqua;
+} 
+ul{
+background-color: white;
+}
+.letter1{
+    color: black; 
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+aside{
+background:white;
+padding: 100px;
+width: 200px;
+float: left;
 }
